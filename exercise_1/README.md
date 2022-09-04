@@ -58,7 +58,7 @@ Following the instructions below, use Test-Driven Development to create an objec
 
 1. A `Building` has a `building_number` (e.g. `"623"`) and a `building_name` (e.g. `"Savills Apartment Building"`), and a way to read that data.
 
-1. A `Building` can have up to 4 `Apartments`, and should be able to list those Apartments.
+2. A `Building` can have up to 4 `Apartments`, and should be able to list those Apartments.
 Example:
 ```
   bldg = Building.new("623", "Savills Apartment Building")
