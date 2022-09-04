@@ -24,9 +24,9 @@ class Bag
     # @count += 1
   end
 
-  def contains?(type)
+  def contains?(candy_type)
    @candies.any? do |candy|
-    if candy.type == type
+    if candy.type == candy_type
    end
   end
  end
